@@ -286,3 +286,26 @@ i {
 .map {
     margin-left: 30%; 
 }
+
+#content-modal {
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 250x 50px 50px 50px;
+    border: 2px solid #000000;
+}
+
+.arrow {
+    width: 10%;
+}
+
+.cont-l {
+    padding: 10px;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50x 50px 50px 50px;
+    border: 2px solid #B5B5B5;
+}
+
+.step {
+    width: 35%;
+}
