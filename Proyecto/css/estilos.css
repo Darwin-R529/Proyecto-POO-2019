@@ -1,0 +1,288 @@
+.conteiner {
+    background: white;
+    width: 25%;
+    margin: 0% 35%;
+    padding: 2% 2%;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #EAECED;
+    color: black;
+
+}
+.conteiner-emp {
+    background: white;
+    width: 50%;
+    margin: 0% 28%;
+    padding: 2% 2%;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #EAECED;
+    color: black;
+}
+
+.container-b {
+    background: white;
+    width: 100%;
+    padding: 5% 10%;
+    border-radius: 13px 13px 13px 13px;
+    border: 1px solid #EAECED;
+    color: black;
+}
+
+.container-f {
+    margin: 0% 1px;
+}
+
+.conteiner-m {
+    background: white;
+    margin: 5% 0% 0% 0%;
+    height: 60px;
+    padding: 15px 2px;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #EAECED;
+    color: black;
+}
+
+.container-datos {
+    background: white;
+    width: 100%;
+    padding: 10%;
+    height: 480px;
+    border-radius: 13px 13px 13px 13px;
+    border: 1px solid #EAECED;
+    color: black;
+}
+
+.font {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+input {
+    height: 30px;
+}
+
+.logo {
+    width: 5%;
+    margin: 0% 57%;
+    position: relative;
+    top: 30px;
+}
+
+.logo-emp {
+    width: 5%;
+    margin: 0% 75%;
+    position: relative;
+    top: 30px;
+}
+
+#basic-addon1{
+    background: white;
+    border-color: white;
+}
+
+
+.form-control {
+    border-color: white;
+}
+
+.input-group   {
+    border: 2px solid #EAECED;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    margin: 0% 0%;
+}
+
+i {
+    position: absolute;
+    top: 11px;
+    right: 7px;
+    color: #EAECED;
+    border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border: 2px;
+}
+
+.remember {
+    position: relative;
+    bottom: 33px;
+    left: 17%;
+}
+
+.accept {
+    position: relative;
+    bottom: 33px;
+    left: 5%;
+}
+
+.btn {
+    width: 100%;
+}
+
+#btn {
+    color: black;
+    width: 100%;
+    background-color: #D2DBE1;
+    border: #D2DBE1;
+}
+
+.loginSignUpSeparator{
+    border-top: 1px solid #cbd2d6;
+    position: relative;
+    margin: 25px 0 10px;
+    text-align: center;
+}
+
+.textInSeparator {
+    background-color: #fff;
+    padding: 0 .5em;
+    position: relative;
+    color: #6c7378;
+    top: -.7em;
+}
+
+.modal-header {
+    border-bottom: 0px;
+}
+
+.btn2 {
+    width: 100%;
+    border-radius: 155px 155px 155px 155px;
+    -moz-border-radius: 155px 155px 155px 155px;
+    -webkit-border-radius: 155px 155px 155px 155px;
+    border: 1px solid transparent;
+    height: 55px;
+}
+
+#btn2 {
+    width: 100%;
+    border: #D2DBE1;
+    border: 1px solid transparent;
+}
+
+#sign {
+    height: 55px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+}
+
+.banner{
+    width: 100%;
+    height: 375px;
+    background: rgb(185, 89, 89);
+}
+
+.logotipo{
+    width: 5%;
+    height: 8.5rem;
+    background: rebeccapurple;
+}
+
+.map {
+    width: 100%; 
+    height: 300px;
+}
+
+.emp {
+    background: white;
+    padding: 15px 2px;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #EAECED;
+    color: rgb(138, 136, 136);
+    position: relative;
+    bottom: 10px;
+}
+
+.p {
+    background: #17a2b8;
+    padding: 3%;
+}
+
+.container-principal{
+    background: white;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 24px 24px 24px 24px;
+    border: 5px solid rgb(102, 102, 102);
+    color: black;
+}
+
+#log {
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+.cont-b {
+    width: 87%;
+    margin-left: 6%;
+}
+
+#cont-c {
+    background: white;
+    padding: 2% 2%;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #B5B5B5;
+    color: black;
+}
+.stars {
+    background: white;
+    padding: 15px 2px;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #EAECED;
+    color: rgb(138, 136, 136);
+    position: relative;
+    bottom: 10px;
+}
+
+.swiper-img {
+    width: 35%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#swiper {
+    background: white;
+    padding: 2% 0%;
+    border-radius: 24px 24px 24px 24px;
+    border: 3px solid #B5B5B5;
+    color: black;
+}
+
+.swiper-slide {
+    background: white;
+    padding: 2% 2%;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #B5B5B5;
+    color: black;
+}
+
+#cont {
+    width: 90%;
+    margin-left: 5%; 
+    background: white;
+    padding: 2% 2%;
+    border-radius: 24px 24px 24px 24px;
+    border: 1px solid #B5B5B5;
+    color: black;
+}
+
+.mog {
+    width: 17%;
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    position: relative;
+    bottom: 55px;
+    left: 5%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 5px solid #ffffff;
+}
+
+.map {
+    margin-left: 30%; 
+}

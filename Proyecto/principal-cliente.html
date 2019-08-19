@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="js/controlador.js">
+    <title>Page Principal</title>
+
+    <style>
+            html, body {
+              position: relative;
+              height: 100%;
+            }
+            body {
+              background: #eee;
+              font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+              font-size: 14px;
+              color:#000;
+              margin: 0;
+              padding: 0;
+            }
+            .swiper-container {
+              width: 100%;
+              height: 100%;
+            }
+            .swiper-slide {
+              text-align: center;
+              font-size: 18px;
+              background: #fff;
+              /* Center slide text vertically */
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              display: flex;
+              -webkit-box-pack: center;
+              -ms-flex-pack: center;
+              -webkit-justify-content: center;
+              justify-content: center;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              -webkit-align-items: center;
+              align-items: center;
+            }
+          </style>
+</head>
+<body class="p">
+    <div class="container-principal">
+        <label for=""> <img id="log" src="img/amazon-logo.png" alt=""></label>
+        <br>
+        <div class="row">
+        <div class="cont-b">
+            <hr>
+            <br><br>
+            <div id="cont-c" class="col-xl-12">
+                <div class="row">
+                    <div class="col-xl-4 col-12 col-md-4">
+                        <label for=""><b>Nombre de Empresa</b></label> 
+                    </div>
+                    <div  id="log" class="col-xl-8">
+                        <!--<div class="col-xl-8">
+                                <i class="fas fa-star">::before</i>
+                                <i class="fas fa-star">::before</i>
+                                <i class="fas fa-star">::before</i>
+                                <i class="far fa-star">::before</i>
+                        </div>-->
+                    </div>  
+                </div>
+            <hr><br>
+
+            <label for="">ProductProms!!!</label><br>
+            <div id="swiper" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div>                              
+                            <img class="swiper-img" src="img/Sonic_03.png" alt="">                     
+                            <h2 id="nombre-product"> <font size="4"> Producto </font></h2>
+                            <div class="price" id="price-emp"> $ precio $ </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div>                              
+                            <img class="swiper-img" src="img/Sonic_03.png" alt="">                     
+                            <h2 id="nombre-product"> <font size="4"> Producto </font></h2>
+                            <div class="price" id="price-emp"> $ precio $ </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                            <div>                              
+                                <img class="swiper-img" src="img/Sonic_03.png" alt="">                     
+                                <h2 id="nombre-product"> <font size="4"> Producto </font></h2>
+                                <div class="price" id="price-emp"> $ precio $ </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                                <div>                              
+                                    <img class="swiper-img" src="img/Sonic_03.png" alt="">                     
+                                    <h2 id="nombre-product"> <font size="4"> Producto </font></h2>
+                                    <div class="price" id="price-emp"> $ precio $ </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                    <div>                              
+                                        <img class="swiper-img" src="img/Sonic_03.png" alt="">                     
+                                        <h2 id="nombre-product"> <font size="4"> Producto </font></h2>
+                                        <div class="price" id="price-emp"> $ precio $ </div>
+                                    </div>
+                                </div>
+                      </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+                
+                  <!-- Swiper JS -->
+                  <script src="js/swiper.min.js"></script>
+                
+                  <!-- Initialize Swiper -->
+                  <script>
+                    var swiper = new Swiper('.swiper-container', {
+                      slidesPerView: 4,
+                      spaceBetween: 30,
+                      centeredSlides: true,
+                      pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                      },
+                    });
+                  </script>
+            </div>
+<br><br><br>
+        </div>
+    </div>
+        <br><br>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/controlador.js"></script>
+</body>
+</html>

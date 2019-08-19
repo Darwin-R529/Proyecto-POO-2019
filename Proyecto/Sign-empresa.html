@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet"> 
+    <title>Empresa</title>
+</head>
+<body class="font">
+        <img class="logo-emp" src="img/Sonic_03.png" alt="">
+    </div>
+    <div class="conteiner-emp">
+            <div class="row">
+                <div class="col-xl-4">
+                    <h2>Sign in</h2>
+                </div>
+                <div class="col-xl-8">
+                    <div class="emp"><center><b> Empresas </b></center></div>
+                </div>
+            </div>
+            <br>
+            <div class="container-f">   
+
+                <div class="row">
+                    <div class="col-xl-6">
+                       <h4><b>Datos</b></h4>
+                       <div class="container-datos">
+                           <font size="3">Nombre Empresa</font>
+                            <input id="nombre-emp" class="form-control" type="text" placeholder="Nombre Empresa">
+                            <div class="valid-feedback">
+                                Ok
+                            </div>
+                            <div class="invalid-feedback">
+                                Campo obligatorio
+                            </div>
+                            <br>
+                            <font size="3">Correo Electronico</font>
+                            <input id="correo" class="form-control" type="text" placeholder="Correo electronico">
+                            <div class="valid-feedback">
+                                Ok
+                            </div>
+                            <div class="invalid-feedback">
+                                Campo obligatorio
+                            </div>
+                            <br>
+                            <font size="3">Pais</font>
+                            <select class="form-control" name="" id="">
+                                <option value="">Selecione un pais</option>
+                                <option value="">Honduras</option>
+                                <option value="">Salvador</option>
+                                <option value="">Costa Ricas</option>
+                            </select>
+                       </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <h4><b>Direccion</b></h4>
+                        <div class="container-b">
+                            <font size="3">Direccion</font>
+                                <input id="direccion" class="form-control" type="text" placeholder="Dieccion">
+                                <div class="valid-feedback">
+                                    Ok
+                                </div>
+                                <div class="invalid-feedback">
+                                    Campo obligatorio
+                                </div>
+                                <br>
+                                <font size="3">Ubicacion</font>
+                                <input class="form-control" type="text" placeholder="Ubicacion Maps (Opcional)">
+                                <label class="ubicacion"><a href="#">¿Como ingresar ubicacion aqui?</a></label>
+                        </div>
+                        <br>
+                        <h4><b>Redes Sociales</b></h4>
+                        <div class="container-b">
+                            <font size="3">Facebook</font>
+                                <input class="form-control" type="text" placeholder="Facebook">
+                                <br>
+                                <font size="3">Twitter</font>
+                                <input class="form-control" type="text" placeholder="Twitter">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <input type="checkbox" name="" id=""> 
+                        <div class="accept">I accept the <a href="#"> Terms & Conditions </a> and I acknowledge <a href="#"> Privacy Policy</a></div>
+                    </div>
+                </div>
+
+                <button id="sign" type="button" class="btn btn-info" onclick="agregar()">Sign in</button>          
+
+                <div class="conteiner-m">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <center><b>¿Ya tienes cuenta? <a href="login.html"> Iniciar sesión</a></b></center>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/controlador.js"></script>
+</body>
+</html>
